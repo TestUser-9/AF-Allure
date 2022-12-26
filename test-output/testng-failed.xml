@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Test.TestUserDelete_Chrome(failed)">
+    <classes>
+      <class name="Test.TestUserDelete">
+        <methods>
+          <include name="getResult"/>
+          <include name="deleteUserfromList"/>
+          <include name="before_Class"/>
+          <include name="closeDriver"/>
+          <include name="before_suite"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- Test.TestUserDelete -->
+    </classes>
+  </test> <!-- Test.TestUserDelete_Chrome(failed) -->
+  <test thread-count="5" name="Test.leaveTest_Chrome(failed)">
+    <classes>
+      <class name="Test.leaveTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="before_Class"/>
+          <include name="applyleave"/>
+          <include name="closeDriver"/>
+          <include name="before_suite"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- Test.leaveTest -->
+    </classes>
+  </test> <!-- Test.leaveTest_Chrome(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
